@@ -1,0 +1,8 @@
+[
+  {
+    "id": 1,
+    "username": "usuario1",
+    "password": "hashed_password",
+    "email": "user1@example.com"
+  }
+]
