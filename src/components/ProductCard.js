@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import AddCartIcon from "./AddCartIcon";
@@ -9,13 +10,13 @@ const ProductCard = ({ product }) => {
   return (
     <>
       <div
-        className="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden"
+        className="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden transition-opacity duration-500"
         key={product.id}
       >
         <div className="relative flex items-end justify-end h-56 w-full">
           <Image
-            src="https://images.unsplash.com/photo-1495856458515-0637185db551?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
-            alt={product.name}
+            src={product.image}
+            alt={product.alt}
             layout="fill"
             objectFit="cover"
             className="absolute inset-0"
@@ -25,7 +26,7 @@ const ProductCard = ({ product }) => {
           </button>
         </div>
         <div className="px-5 py-3">
-          <h3 className="text-gray-700 uppercase">{product.name}</h3>
+          <h3 className="text-gray-700">{product.name}</h3>
           <span className="text-gray-500 mt-2">${product.price}</span>
         </div>
       </div>

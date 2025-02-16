@@ -4,7 +4,6 @@ import React from "react";
 const CartPage = () => {
   return (
     <>
-      <Navbar />
       <div className="flex items-center justify-center min-h-screen flex-col">
         <div className="text-2xl mb-4">Tu carrito esta vacio</div>
         <div className="flex space-x-4">

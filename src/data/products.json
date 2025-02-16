@@ -4,7 +4,8 @@
     "name": "Laptop HP Pavilion",
     "price": 600.0,
     "description": "Laptop con pantalla Full HD, procesador Intel i5 y 8GB de RAM",
-    "image": "https://via.placeholder.com/224x224?text=Laptop+HP+Pavilion",
+    "image": "/img/laptop.jpg",
+    "alt": "Laptop HP Pavilion con pantalla Full HD",
     "category": "Laptops"
   },
   {
@@ -12,7 +13,8 @@
     "name": "Teclado Mecánico Logitech",
     "price": 80.0,
     "description": "Teclado mecánico con retroiluminación RGB",
-    "image": "https://via.placeholder.com/224x224?text=Teclado+Mec%C3%A1nico+Logitech",
+    "image": "/img/teclado.jpg",
+    "alt": "Teclado mecánico Logitech con retroiluminación RGB",
     "category": "Perifericos"
   },
   {
@@ -20,7 +22,8 @@
     "name": "Mouse Razer DeathAdder",
     "price": 50.0,
     "description": "Mouse ergonómico para gaming, con 16,000 DPI",
-    "image": "https://via.placeholder.com/224x224?text=Mouse+Razer+DeathAdder",
+    "image": "/img/mouse.jpg",
+    "alt": "Mouse Razer DeathAdder ergonómico para gaming",
     "category": "Perifericos"
   },
   {
@@ -28,7 +31,8 @@
     "name": "Monitor Dell 24 Pulgadas",
     "price": 150.0,
     "description": "Monitor Full HD con tecnología IPS",
-    "image": "https://via.placeholder.com/224x224?text=Monitor+Dell+24+Pulgadas",
+    "image": "/img/monitor.jpg",
+    "alt": "Monitor Dell de 24 pulgadas con tecnología IPS",
     "category": "Monitores"
   },
   {
@@ -36,7 +40,8 @@
     "name": "Tarjeta Gráfica NVIDIA RTX 3060",
     "price": 400.0,
     "description": "Tarjeta gráfica potente para gaming y edición",
-    "image": "https://via.placeholder.com/224x224?text=Tarjeta+Gr%C3%A1fica+NVIDIA+RTX+3060",
+    "image": "/img/tarjeta-grafica.jpg",
+    "alt": "Tarjeta gráfica NVIDIA RTX 3060 para gaming y edición",
     "category": "Componentes"
   },
   {
@@ -44,7 +49,8 @@
     "name": "Memoria RAM Corsair Vengeance 16GB",
     "price": 70.0,
     "description": "Módulo de memoria DDR4 para alto rendimiento",
-    "image": "https://via.placeholder.com/224x224?text=Memoria+RAM+Corsair+Vengeance",
+    "image": "/img/memoria-ram.jpg",
+    "alt": "Memoria RAM Corsair Vengeance de 16GB DDR4",
     "category": "Componentes"
   },
   {
@@ -52,7 +58,8 @@
     "name": "Alimentador de PC EVGA 650W",
     "price": 90.0,
     "description": "Fuente de alimentación confiable para PC",
-    "image": "https://via.placeholder.com/224x224?text=Alimentador+EVGA+650W",
+    "image": "/img/alimentador.jpg",
+    "alt": "Fuente de alimentación EVGA de 650W para PC",
     "category": "Componentes"
   },
   {
@@ -60,7 +67,8 @@
     "name": "Auriculares Gaming SteelSeries",
     "price": 120.0,
     "description": "Auriculares con sonido envolvente y micrófono",
-    "image": "https://via.placeholder.com/224x224?text=Auriculares+SteelSeries",
+    "image": "/img/audifonos.jpg",
+    "alt": "Auriculares gaming SteelSeries con sonido envolvente",
     "category": "Perifericos"
   },
   {
@@ -68,15 +76,17 @@
     "name": "SSD Samsung 1TB",
     "price": 100.0,
     "description": "Unidad de estado sólido rápida y confiable",
-    "image": "https://via.placeholder.com/224x224?text=SSD+Samsung+1TB",
+    "image": "/img/ssd.jpg",
+    "alt": "SSD Samsung de 1TB para almacenamiento rápido",
     "category": "Componentes"
   },
   {
     "id": 10,
     "name": "CPU Intel Core i7",
     "price": 350.0,
-    "description": "Procesador Intel Core i7 de 8 núcleos",
-    "image": "https://via.placeholder.com/224x224?text=CPU+Intel+Core+i7",
+    "description": "Procesador Intel Core i7 de alto rendimiento",
+    "image": "/img/intel.png",
+    "alt": "Procesador Intel Core i7 de alto rendimiento",
     "category": "Componentes"
   },
   {
@@ -84,7 +94,8 @@
     "name": "Placa Base ASUS ROG",
     "price": 180.0,
     "description": "Placa base de alto rendimiento para gaming",
-    "image": "https://via.placeholder.com/224x224?text=Placa+Base+ASUS+ROG",
+    "image": "/img/asus.jpg",
+    "alt": "Placa base ASUS ROG de alto rendimiento",
     "category": "Componentes"
   },
   {
@@ -92,7 +103,8 @@
     "name": "Cámara Web Logitech C920",
     "price": 70.0,
     "description": "Cámara web HD para streaming y videollamadas",
-    "image": "https://via.placeholder.com/224x224?text=C%C3%A1mara+Web+Logitech+C920",
+    "image": "/img/camara-web.jpg",
+    "alt": "Cámara web Logitech C920 para streaming y videollamadas",
     "category": "Perifericos"
   },
   {
@@ -100,7 +112,8 @@
     "name": "Router TP-Link AC1750",
     "price": 60.0,
     "description": "Router Wi-Fi de doble banda para hogares grandes",
-    "image": "https://via.placeholder.com/224x224?text=Router+TP-Link+AC1750",
+    "image": "/img/tp-link.jpg",
+    "alt": "Router TP-Link AC1750 de doble banda",
     "category": "Redes"
   },
   {
@@ -108,7 +121,8 @@
     "name": "Lector de Tarjetas SanDisk",
     "price": 20.0,
     "description": "Lector rápido para tarjetas SD y microSD",
-    "image": "https://via.placeholder.com/224x224?text=Lector+de+Tarjetas+SanDisk",
+    "image": "/img/lector-tarjeta.jpg",
+    "alt": "Lector de tarjetas SanDisk para SD y microSD",
     "category": "Accesorios"
   },
   {
@@ -116,7 +130,8 @@
     "name": "Teclado Logitech K780",
     "price": 40.0,
     "description": "Teclado inalámbrico con soporte para múltiples dispositivos",
-    "image": "https://via.placeholder.com/224x224?text=Teclado+Logitech+K780",
+    "image": "/img/teclado-logi.jpg",
+    "alt": "Teclado inalámbrico Logitech K780 con soporte múltiple",
     "category": "Perifericos"
   },
   {
@@ -124,7 +139,8 @@
     "name": "Proyector Epson EB-X41",
     "price": 350.0,
     "description": "Proyector Full HD ideal para presentaciones",
-    "image": "https://via.placeholder.com/224x224?text=Proyector+Epson+EB-X41",
+    "image": "/img/proyector.jpg",
+    "alt": "Proyector Epson EB-X41 Full HD",
     "category": "Accesorios"
   },
   {
@@ -132,7 +148,8 @@
     "name": "Impresora HP LaserJet Pro",
     "price": 150.0,
     "description": "Impresora láser rápida para oficina",
-    "image": "https://via.placeholder.com/224x224?text=Impresora+HP+LaserJet+Pro",
+    "image": "/img/impresora.jpg",
+    "alt": "Impresora HP LaserJet Pro para oficina",
     "category": "Oficina"
   },
   {
@@ -140,7 +157,8 @@
     "name": "Estación de Acoplamiento Dell",
     "price": 120.0,
     "description": "Estación de acoplamiento para laptops con puertos múltiples",
-    "image": "https://via.placeholder.com/224x224?text=Estaci%C3%B3n+de+Acoplamiento+Dell",
+    "image": "/img/estacion-acoplamiento.jpg",
+    "alt": "Estación de acoplamiento Dell para laptops",
     "category": "Accesorios"
   },
   {
@@ -148,7 +166,8 @@
     "name": "Teclado Gaming Redragon K552",
     "price": 60.0,
     "description": "Teclado mecánico con retroiluminación RGB",
-    "image": "https://via.placeholder.com/224x224?text=Teclado+Gaming+Redragon+K552",
+    "image": "/img/teclado-redragon.jpg",
+    "alt": "Teclado gaming Redragon K552 con retroiluminación RGB",
     "category": "Perifericos"
   },
   {
@@ -156,7 +175,8 @@
     "name": "Monitor Acer Predator 27\"",
     "price": 500.0,
     "description": "Monitor curvo 4K de alta velocidad para gaming",
-    "image": "https://via.placeholder.com/224x224?text=Monitor+Acer+Predator+27%22",
+    "image": "/img/monitor-acer.jpg",
+    "alt": "Monitor Acer Predator 27 pulgadas 4K curvo para gaming",
     "category": "Monitores"
   }
 ]

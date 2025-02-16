@@ -4,5 +4,18 @@
     "username": "usuario1",
     "password": "hashed_password",
     "email": "user1@example.com"
+  },
+  {
+    "id": "64914e06-b2ba-4fc3-adf4-9fc7a4faad56",
+    "firstName": "Rodrigo",
+    "lastName": "Loy ",
+    "maternalLastName": "Romo",
+    "email": "rodrigohp4@hotmail.com",
+    "password": "$2b$10$Dyq1i36ulb2mFdX.zb1p7OZDqkpyg.0RzsifOf/y8Pc0IFKSWWXRu",
+    "country": "Mexico",
+    "streetAddress": "Antonio Álvarez Vega",
+    "city": "Guadalajara",
+    "region": "Jalisco",
+    "postalCode": "44250"
   }
 ]

@@ -1,17 +1,46 @@
 "use client";
+import { useAuth } from "../context/AuthContext";
 import { useForm } from "react-hook-form";
+import { useRouter, useSearchParams } from "next/navigation";
+import Link from "next/link";
 import Image from "next/image";
 
+import axios from "axios";
+
 export default function Login() {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const callbackUrl = searchParams.get("callbackUrl") || "/";
+
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
+  const { setUser } = useAuth();
 
-  const onSubmit = (data) => {
-    console.log("Datos enviados:", data);
-    alert("Formulario enviado!");
+  const onSubmit = async (loginData) => {
+    try {
+      const { email, password } = loginData;
+      const { data, status } = await axios.post(
+        "http://localhost:3000/api/auth/login",
+        {
+          email,
+          password,
+        }
+      );
+      const { user } = data;
+
+      if (status === 200) {
+        setUser(user);
+        router.push(callbackUrl);
+      } else {
+        alert("Error al hacer login", res.data);
+      }
+    } catch (error) {
+      console.error("Login error:", error);
+      alert("Error al hacer login");
+    }
   };
   return (
     <>
@@ -43,10 +72,7 @@ export default function Login() {
                   {...register("email", {
                     required: "El correo es obligatorio",
                   })}
-                  id="email"
                   type="email"
-                  required
-                  autoComplete="email"
                   className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
                 />
                 {errors.email && (
@@ -69,11 +95,8 @@ export default function Login() {
                   {...register("password", {
                     required: "La contraseña es obligatoria",
                   })}
-                  id="password"
                   name="password"
                   type="password"
-                  required
-                  autoComplete="current-password"
                   className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
                 />
                 {errors.password && (
@@ -92,9 +115,12 @@ export default function Login() {
             </div>
           </form>
 
-          <p className="mt-10 text-center text-sm/6 text-gray-500">
-            ¿No estas registrado?{" "}
-          </p>
+          <Link
+            href="/register"
+            className="mt-10 text-center text-sm/6 text-gray-500"
+          >
+            ¿No estas registrado?
+          </Link>
         </div>
       </div>
     </>

@@ -1,0 +1,35 @@
+[
+  {
+    "userId": "64914e06-b2ba-4fc3-adf4-9fc7a4faad56",
+    "orders": [
+      {
+        "orderId": 1739731726854,
+        "date": "2025-02-16T18:48:46.854Z",
+        "products": [
+          {
+            "id": 1,
+            "name": "Laptop HP Pavilion",
+            "price": 600,
+            "description": "Laptop con pantalla Full HD, procesador Intel i5 y 8GB de RAM",
+            "image": "/img/laptop.jpg",
+            "alt": "Laptop HP Pavilion con pantalla Full HD",
+            "category": "Laptops",
+            "quantity": 1
+          },
+          {
+            "id": 4,
+            "name": "Monitor Dell 24 Pulgadas",
+            "price": 150,
+            "description": "Monitor Full HD con tecnología IPS",
+            "image": "/img/monitor.jpg",
+            "alt": "Monitor Dell de 24 pulgadas con tecnología IPS",
+            "category": "Monitores",
+            "quantity": 1
+          }
+        ],
+        "allPrice": 1049,
+        "total": 750
+      }
+    ]
+  }
+]
