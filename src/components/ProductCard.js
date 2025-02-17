@@ -3,10 +3,16 @@ import React from "react";
 import Image from "next/image";
 import AddCartIcon from "./AddCartIcon";
 import { useCart } from "../app/context/CartContext";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 
 const ProductCard = ({ product }) => {
   const { addToCart } = useCart();
+  const pathname = usePathname();
+  const url =
+    pathname === "/catalog"
+      ? `catalog/product/${product.url}/${product.id}`
+      : `product/${product.url}/${product.id}`;
 
   return (
     <>
@@ -15,7 +21,7 @@ const ProductCard = ({ product }) => {
         key={product.id}
       >
         <div className="relative flex items-end justify-end h-56 w-full">
-          <Link href={`catalog/product/${product.url}/${product.id}`}>
+          <Link href={url}>
             <Image
               src={product.image}
               alt={product.alt}

@@ -70,6 +70,47 @@
         ],
         "allPrice": 619,
         "total": 320
+      },
+      {
+        "orderId": 1739822519068,
+        "date": "2025-02-17T20:01:59.068Z",
+        "products": [
+          {
+            "id": 3,
+            "name": "Mouse Razer DeathAdder",
+            "url": "mouse-razer-deathadder",
+            "price": 50,
+            "description": "El Razer DeathAdder es un mouse ergonómico y de alto rendimiento diseñado para jugadores exigentes. Con un sensor de 16,000 DPI, ofrece una precisión y velocidad increíbles, lo que te permite realizar movimientos rápidos y exactos durante las sesiones más intensas. Su diseño cómodo y su durabilidad hacen de este mouse la opción ideal para largas sesiones de juego sin comprometer el confort.",
+            "image": "/img/mouse.jpg",
+            "alt": "Mouse Razer DeathAdder ergonómico para gaming",
+            "category": "Perifericos",
+            "quantity": 1
+          },
+          {
+            "id": 11,
+            "name": "Placa Base ASUS ROG",
+            "url": "placa-base-asus-rog",
+            "price": 180,
+            "description": "Placa base de alto rendimiento para gaming",
+            "image": "/img/asus.jpg",
+            "alt": "Placa base ASUS ROG de alto rendimiento",
+            "category": "Componentes",
+            "quantity": 1
+          },
+          {
+            "id": 15,
+            "name": "Teclado Logitech K780",
+            "url": "lector-de-sonido-k780",
+            "price": 40,
+            "description": "Teclado inalámbrico con soporte para múltiples dispositivos",
+            "image": "/img/teclado-logi.jpg",
+            "alt": "Teclado inalámbrico Logitech K780 con soporte múltiple",
+            "category": "Perifericos",
+            "quantity": 1
+          }
+        ],
+        "allPrice": 569,
+        "total": 270
       }
     ]
   },

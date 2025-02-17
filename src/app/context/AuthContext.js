@@ -17,9 +17,15 @@ export function AuthProvider({ children }) {
 
         if (data.user) {
           setUser(data.user);
+        } else {
+          console.log("error");
         }
       } catch (error) {
-        console.error("Error al obtener el usuario:", error);
+        if (error.response && error.response.status === 401) {
+          console.log("No hay login actualmente");
+        } else {
+          console.error("Error al obtener el usuario:", error);
+        }
       }
     };
     fetchUser();

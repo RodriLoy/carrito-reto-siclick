@@ -3,6 +3,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import ProductButtons from "@/components/ProductButtons";
 import { getProducts, getProductById } from "@/utils";
+
 export const generateMetadata = async ({ params }) => {
   const { id } = await params;
   const product = await getProductById(id);

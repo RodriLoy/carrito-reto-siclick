@@ -1,11 +1,11 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { useAuth } from "@/app/context/AuthContext";
 
 const OrderConfirmationPage = () => {
   const { user } = useAuth();
-  const storedOrderId = sessionStorage.getItem("orderId");
+  const [orderId, setOrderId] = useState("");
   const fechaISO = new Date().toISOString();
   const fecha = new Date(fechaISO);
 
@@ -14,6 +14,11 @@ const OrderConfirmationPage = () => {
     month: "long",
     year: "numeric",
   });
+
+  useEffect(() => {
+    const storedOrderId = sessionStorage.getItem("orderId");
+    setOrderId(storedOrderId);
+  }, []);
 
   return (
     <section className="bg-white py-8 antialiased dark:bg-gray-900 md:py-16">
@@ -27,7 +32,7 @@ const OrderConfirmationPage = () => {
             href="#"
             className="font-medium text-gray-900 dark:text-white hover:underline"
           >
-            #{storedOrderId}
+            #{orderId}
           </a>{" "}
           Será procesado dentro de las 24 horas durante los días laborales. Te
           notificaremos por correo electrónico una vez que tu pedido haya sido
@@ -55,7 +60,7 @@ const OrderConfirmationPage = () => {
               Nombre
             </dt>
             <dd className="font-medium text-gray-900 dark:text-white sm:text-end">
-              {user.firstName} {user.lastName} {user.maternalLastName}
+              {user?.firstName} {user?.lastName} {user?.maternalLastName}
             </dd>
           </dl>
           <dl className="sm:flex items-center justify-between gap-4">

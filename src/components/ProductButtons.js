@@ -2,11 +2,13 @@
 import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useCart } from "@/app/context/CartContext";
+import { useAuth } from "@/app/context/AuthContext";
 
 const ProductButtons = ({ product }) => {
   const [quantity, setQuantity] = useState(1);
   const { addToCart } = useCart();
   const router = useRouter();
+  const { user } = useAuth();
 
   const handleDecrement = () => {
     if (quantity > 1) {
@@ -16,7 +18,7 @@ const ProductButtons = ({ product }) => {
 
   const handleClick = (addToCart, router, product) => {
     addToCart(product, quantity);
-    router.push("/checkout");
+    router.push(user ? "/checkout" : "/login?callbackUrl=/checkout");
   };
 
   return (

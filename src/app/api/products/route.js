@@ -9,7 +9,7 @@ function getProducts() {
 }
 
 export async function GET(req) {
-  const { searchParams } = new URL(req.url);
+  const { searchParams } = req.nextUrl;
   const productId = searchParams.get("id");
 
   const products = getProducts();
