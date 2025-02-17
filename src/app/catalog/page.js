@@ -1,19 +1,8 @@
-import axios from "axios";
 import ProductCard from "../../components/ProductCard";
-
-// 🚀 Esta función se ejecuta en el servidor
-async function getProducts() {
-  try {
-    const { data } = await axios.get("http://localhost:3000/api/products");
-    return data;
-  } catch (error) {
-    console.error("Error fetching products", error);
-    return [];
-  }
-}
+import { getProducts } from "@/utils";
 
 export default async function CatalogPage() {
-  const products = await getProducts(); // Obtiene los productos en el servidor
+  const products = await getProducts();
 
   return (
     <div className="container mx-auto px-6">

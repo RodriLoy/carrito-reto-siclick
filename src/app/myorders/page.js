@@ -17,7 +17,10 @@ const OrderHistory = () => {
         const { data } = await axios.get(
           `http://localhost:3000/api/orders?userId=${user.id}`
         );
-        setOrders(data.orders);
+        const sortedOrders = data.orders.sort((a, b) => {
+          return new Date(b.date) - new Date(a.date); // Ordenar de más reciente a más antigua
+        });
+        setOrders(sortedOrders);
       } catch (error) {
         console.error("Error fetching orders", error);
       }

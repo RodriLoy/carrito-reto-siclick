@@ -1,7 +1,8 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useCart } from "@/app/context/CartContext";
 import { useAuth } from "@/app/context/AuthContext";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import Cart from "./Cart";
@@ -12,6 +13,13 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { totalProducts } = useCart();
   const { user, logout } = useAuth();
+  const pathname = usePathname();
+
+  useEffect(() => {
+    if (pathname === "/checkout") {
+      setOpen(false);
+    }
+  }, [pathname]);
 
   return (
     <header className="bg-white">

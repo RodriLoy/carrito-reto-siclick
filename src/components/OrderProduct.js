@@ -16,15 +16,15 @@ const OrderProduct = ({ product }) => {
             />
           </div>
           <div className="col-span-4 sm:col-span-3 max-sm:mt-4 sm:pl-8 flex flex-col justify-center max-sm:items-center">
-            <h6 className="font-manrope font-semibold text-2xl leading-9 text-black mb-3 whitespace-nowrap">
+            <h6 className="font-manrope font-semibold text-2xl leading-9 text-black mb-3 ">
               {product.name}
             </h6>
 
             <div className="flex items-center max-sm:flex-col gap-x-10 gap-y-3">
-              <span className="font-normal text-lg leading-8 text-gray-500 whitespace-nowrap">
+              <span className="font-normal text-lg leading-8 text-gray-500 ">
                 Cantidad: {product.quantity}
               </span>
-              <p className="font-semibold text-xl leading-8 text-black whitespace-nowrap">
+              <p className="font-semibold text-xl leading-8 text-black">
                 Precio ${product.price * product.quantity}
               </p>
             </div>

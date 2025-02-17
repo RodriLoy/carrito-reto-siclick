@@ -10,7 +10,7 @@ import axios from "axios";
 
 const CheckoutPage = () => {
   const router = useRouter();
-  const { cartItems, total } = useCart();
+  const { cartItems, total, clearCart } = useCart();
   const { user } = useAuth();
   const allShippingInformation = `${user?.streetAddress}, ${user?.city}, ${user?.region}, ${user?.country}, ${user?.postalCode}`;
   const allPrice = total + 99 + 200;
@@ -41,6 +41,7 @@ const CheckoutPage = () => {
         const orderId = res.data.newOrder.orderId;
         console.log("Compra guardada:", res.data);
         sessionStorage.setItem("orderId", orderId);
+        clearCart();
         router.push("/confirmation");
       } else {
         alert("Error al enviar el pedido");
@@ -72,15 +73,6 @@ const CheckoutPage = () => {
                   {allShippingInformation}
                 </dd>
               </dl>
-
-              <button
-                type="button"
-                data-modal-target="billingInformationModal"
-                data-modal-toggle="billingInformationModal"
-                className="text-base font-medium text-primary-700 hover:underline dark:text-primary-500"
-              >
-                Edit
-              </button>
             </div>
 
             <div className="mt-6 sm:mt-8">

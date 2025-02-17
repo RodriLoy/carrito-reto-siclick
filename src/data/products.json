@@ -2,8 +2,9 @@
   {
     "id": 1,
     "name": "Laptop HP Pavilion",
+    "url": "laptop-hp-pavilion",
     "price": 600.0,
-    "description": "Laptop con pantalla Full HD, procesador Intel i5 y 8GB de RAM",
+    "description": "La Laptop HP Pavilion es un dispositivo versátil y potente ideal para el uso diario, desde el trabajo hasta el entretenimiento. Equipado con un procesador Intel i5 de última generación, 8GB de RAM y una pantalla Full HD de 15.6\", ofrece un rendimiento rápido y una experiencia visual impresionante. Perfecto para tareas multitarea, juegos ligeros y ver tus películas favoritas con una calidad de imagen nítida y brillante.",
     "image": "/img/laptop.jpg",
     "alt": "Laptop HP Pavilion con pantalla Full HD",
     "category": "Laptops"
@@ -11,8 +12,9 @@
   {
     "id": 2,
     "name": "Teclado Mecánico Logitech",
+    "url": "teclado-mecanico-logitech",
     "price": 80.0,
-    "description": "Teclado mecánico con retroiluminación RGB",
+    "description": "El teclado mecánico Logitech es ideal para gamers y profesionales que buscan una experiencia de escritura precisa y cómoda. Con retroiluminación RGB personalizable, cada tecla responde de manera instantánea, lo que lo convierte en la herramienta perfecta para jugar o trabajar durante largas horas. Su diseño compacto y robusto asegura durabilidad y una excelente sensación táctil al escribir.",
     "image": "/img/teclado.jpg",
     "alt": "Teclado mecánico Logitech con retroiluminación RGB",
     "category": "Perifericos"
@@ -20,8 +22,9 @@
   {
     "id": 3,
     "name": "Mouse Razer DeathAdder",
+    "url": "mouse-razer-deathadder",
     "price": 50.0,
-    "description": "Mouse ergonómico para gaming, con 16,000 DPI",
+    "description": "El Razer DeathAdder es un mouse ergonómico y de alto rendimiento diseñado para jugadores exigentes. Con un sensor de 16,000 DPI, ofrece una precisión y velocidad increíbles, lo que te permite realizar movimientos rápidos y exactos durante las sesiones más intensas. Su diseño cómodo y su durabilidad hacen de este mouse la opción ideal para largas sesiones de juego sin comprometer el confort.",
     "image": "/img/mouse.jpg",
     "alt": "Mouse Razer DeathAdder ergonómico para gaming",
     "category": "Perifericos"
@@ -29,8 +32,9 @@
   {
     "id": 4,
     "name": "Monitor Dell 24 Pulgadas",
+    "url": "monitor-dell-24-pulgadas",
     "price": 150.0,
-    "description": "Monitor Full HD con tecnología IPS",
+    "description": "El monitor Dell de 24 pulgadas es perfecto para profesionales y entusiastas de la tecnología que buscan una pantalla clara y precisa para trabajar o disfrutar de contenido multimedia. Con una resolución Full HD y tecnología IPS, este monitor ofrece colores vivos y un ángulo de visión amplio, lo que lo convierte en una excelente opción para proyectos gráficos, juegos o ver películas.",
     "image": "/img/monitor.jpg",
     "alt": "Monitor Dell de 24 pulgadas con tecnología IPS",
     "category": "Monitores"
@@ -38,8 +42,9 @@
   {
     "id": 5,
     "name": "Tarjeta Gráfica NVIDIA RTX 3060",
+    "url": "tarjeta-grafica-nvidia-rtx-3060",
     "price": 400.0,
-    "description": "Tarjeta gráfica potente para gaming y edición",
+    "description": "La tarjeta gráfica NVIDIA RTX 3060 ofrece un rendimiento impresionante para gamers y creadores de contenido. Con tecnología de trazado de rayos y soporte para DLSS, esta tarjeta permite experimentar los videojuegos más recientes con gráficos increíbles y una fluidez sin precedentes. Ideal para tareas intensivas como la edición de video y la creación de contenido en 3D, esta tarjeta gráfica garantiza una experiencia visual de primer nivel.",
     "image": "/img/tarjeta-grafica.jpg",
     "alt": "Tarjeta gráfica NVIDIA RTX 3060 para gaming y edición",
     "category": "Componentes"
@@ -47,8 +52,9 @@
   {
     "id": 6,
     "name": "Memoria RAM Corsair Vengeance 16GB",
+    "url": "memoria-ram-corsair-vengeance-16gb",
     "price": 70.0,
-    "description": "Módulo de memoria DDR4 para alto rendimiento",
+    "description": "La memoria RAM Corsair Vengeance 16GB DDR4 es perfecta para quienes buscan mejorar el rendimiento de su PC. Con velocidades rápidas y una latencia baja, esta memoria optimiza el rendimiento en juegos, multitarea y aplicaciones profesionales. Además, su diseño de bajo perfil permite instalarla en la mayoría de las configuraciones, sin importar el tamaño del gabinete.",
     "image": "/img/memoria-ram.jpg",
     "alt": "Memoria RAM Corsair Vengeance de 16GB DDR4",
     "category": "Componentes"
@@ -56,8 +62,9 @@
   {
     "id": 7,
     "name": "Alimentador de PC EVGA 650W",
+    "url": "alimentador-pc-evga-650w",
     "price": 90.0,
-    "description": "Fuente de alimentación confiable para PC",
+    "description": "El alimentador de PC EVGA 650W es una fuente de alimentación confiable y eficiente para tus componentes de alto rendimiento. Con certificación 80+ Bronze, ofrece una alta eficiencia energética y una operación silenciosa. Ideal para equipos gaming o estaciones de trabajo que requieren estabilidad y potencia constante durante largas sesiones.",
     "image": "/img/alimentador.jpg",
     "alt": "Fuente de alimentación EVGA de 650W para PC",
     "category": "Componentes"
@@ -65,8 +72,9 @@
   {
     "id": 8,
     "name": "Auriculares Gaming SteelSeries",
+    "url": "auriculares-gaming-steelseries",
     "price": 120.0,
-    "description": "Auriculares con sonido envolvente y micrófono",
+    "description": "Los auriculares gaming SteelSeries ofrecen un sonido envolvente 7.1 para una experiencia auditiva inmersiva. Equipados con un micrófono de cancelación de ruido, estos auriculares permiten una comunicación clara y precisa en juegos en línea. Su diseño ergonómico y cómodo permite largas sesiones de juego sin fatiga, lo que los convierte en una opción perfecta para los gamers más exigentes.",
     "image": "/img/audifonos.jpg",
     "alt": "Auriculares gaming SteelSeries con sonido envolvente",
     "category": "Perifericos"
@@ -74,8 +82,9 @@
   {
     "id": 9,
     "name": "SSD Samsung 1TB",
+    "url": "ssd-samsung-1tb",
     "price": 100.0,
-    "description": "Unidad de estado sólido rápida y confiable",
+    "description": "El SSD Samsung de 1TB es ideal para quienes buscan un almacenamiento rápido y confiable. Con velocidades de lectura y escritura de hasta 550 MB/s, este disco sólido mejora significativamente el rendimiento del sistema y reduce los tiempos de carga de los programas. Es perfecto para almacenar juegos, aplicaciones y archivos de gran tamaño, garantizando una experiencia fluida y sin interrupciones.",
     "image": "/img/ssd.jpg",
     "alt": "SSD Samsung de 1TB para almacenamiento rápido",
     "category": "Componentes"
@@ -83,8 +92,9 @@
   {
     "id": 10,
     "name": "CPU Intel Core i7",
+    "url": "cpu-intel-core-i7",
     "price": 350.0,
-    "description": "Procesador Intel Core i7 de alto rendimiento",
+    "description": "El procesador Intel Core i7 es un componente de alto rendimiento diseñado para quienes requieren velocidad y eficiencia en tareas exigentes como la edición de video, programación y gaming. Con múltiples núcleos y hilos, este procesador ofrece una excelente multitarea y soporta la ejecución de aplicaciones pesadas sin esfuerzo.",
     "image": "/img/intel.png",
     "alt": "Procesador Intel Core i7 de alto rendimiento",
     "category": "Componentes"
@@ -92,6 +102,7 @@
   {
     "id": 11,
     "name": "Placa Base ASUS ROG",
+    "url": "placa-base-asus-rog",
     "price": 180.0,
     "description": "Placa base de alto rendimiento para gaming",
     "image": "/img/asus.jpg",
@@ -101,6 +112,7 @@
   {
     "id": 12,
     "name": "Cámara Web Logitech C920",
+    "url": "camara-web-logintech-c920",
     "price": 70.0,
     "description": "Cámara web HD para streaming y videollamadas",
     "image": "/img/camara-web.jpg",
@@ -110,6 +122,7 @@
   {
     "id": 13,
     "name": "Router TP-Link AC1750",
+    "url": "router-tp-link-ac1750",
     "price": 60.0,
     "description": "Router Wi-Fi de doble banda para hogares grandes",
     "image": "/img/tp-link.jpg",
@@ -119,6 +132,7 @@
   {
     "id": 14,
     "name": "Lector de Tarjetas SanDisk",
+    "url": "lector-de-sonido-sandisk",
     "price": 20.0,
     "description": "Lector rápido para tarjetas SD y microSD",
     "image": "/img/lector-tarjeta.jpg",
@@ -128,6 +142,7 @@
   {
     "id": 15,
     "name": "Teclado Logitech K780",
+    "url": "lector-de-sonido-k780",
     "price": 40.0,
     "description": "Teclado inalámbrico con soporte para múltiples dispositivos",
     "image": "/img/teclado-logi.jpg",
@@ -137,6 +152,7 @@
   {
     "id": 16,
     "name": "Proyector Epson EB-X41",
+    "url": "ployector-epson-eb-x41",
     "price": 350.0,
     "description": "Proyector Full HD ideal para presentaciones",
     "image": "/img/proyector.jpg",
@@ -146,6 +162,7 @@
   {
     "id": 17,
     "name": "Impresora HP LaserJet Pro",
+    "url": "impresora-hp-laserjet-pro",
     "price": 150.0,
     "description": "Impresora láser rápida para oficina",
     "image": "/img/impresora.jpg",
@@ -155,6 +172,7 @@
   {
     "id": 18,
     "name": "Estación de Acoplamiento Dell",
+    "url": "estacion-de-acomplamiento-dell",
     "price": 120.0,
     "description": "Estación de acoplamiento para laptops con puertos múltiples",
     "image": "/img/estacion-acoplamiento.jpg",
@@ -164,6 +182,7 @@
   {
     "id": 19,
     "name": "Teclado Gaming Redragon K552",
+    "url": "teclado-gaming-redragon k552",
     "price": 60.0,
     "description": "Teclado mecánico con retroiluminación RGB",
     "image": "/img/teclado-redragon.jpg",
@@ -173,6 +192,7 @@
   {
     "id": 20,
     "name": "Monitor Acer Predator 27\"",
+    "url": "monitor-acer-predator-27",
     "price": 500.0,
     "description": "Monitor curvo 4K de alta velocidad para gaming",
     "image": "/img/monitor-acer.jpg",

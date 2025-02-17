@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import AddCartIcon from "./AddCartIcon";
 import { useCart } from "../app/context/CartContext";
+import Link from "next/link";
 
 const ProductCard = ({ product }) => {
   const { addToCart } = useCart();
@@ -14,13 +15,15 @@ const ProductCard = ({ product }) => {
         key={product.id}
       >
         <div className="relative flex items-end justify-end h-56 w-full">
-          <Image
-            src={product.image}
-            alt={product.alt}
-            layout="fill"
-            objectFit="cover"
-            className="absolute inset-0"
-          />
+          <Link href={`catalog/product/${product.url}/${product.id}`}>
+            <Image
+              src={product.image}
+              alt={product.alt}
+              layout="fill"
+              objectFit="cover"
+              className="absolute inset-0"
+            />
+          </Link>
           <button className="p-2 rounded-full bg-blue-600 text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500 z-10">
             <AddCartIcon onClick={() => addToCart(product)} />
           </button>

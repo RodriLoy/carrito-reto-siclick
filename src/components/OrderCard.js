@@ -6,10 +6,10 @@ const OrderCard = ({ order }) => {
     <div className="mt-7 border border-gray-300 pt-9">
       <div className="flex max-md:flex-col items-center justify-between px-3 md:px-11">
         <div className="data">
-          <p className="font-medium text-lg leading-8 text-black whitespace-nowrap">
+          <p className="font-medium text-lg leading-8 text-black">
             Orden: #{order.orderId}
           </p>
-          <p className="font-medium text-lg leading-8 text-black mt-3 whitespace-nowrap">
+          <p className="font-medium text-lg leading-8 text-black mt-3 ">
             Fecha de pedido :{" "}
             {new Date(order.date).toLocaleDateString("es-ES", {
               day: "numeric",

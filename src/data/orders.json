@@ -29,6 +29,134 @@
         ],
         "allPrice": 1049,
         "total": 750
+      },
+      {
+        "orderId": 1739742222919,
+        "date": "2025-02-16T21:43:42.919Z",
+        "products": [
+          {
+            "id": 14,
+            "name": "Lector de Tarjetas SanDisk",
+            "url": "lector-de-sonido-sandisk",
+            "price": 20,
+            "description": "Lector rápido para tarjetas SD y microSD",
+            "image": "/img/lector-tarjeta.jpg",
+            "alt": "Lector de tarjetas SanDisk para SD y microSD",
+            "category": "Accesorios",
+            "quantity": 3
+          },
+          {
+            "id": 2,
+            "name": "Teclado Mecánico Logitech",
+            "url": "teclado-mecanico-logitech",
+            "price": 80,
+            "description": "El teclado mecánico Logitech es ideal para gamers y profesionales que buscan una experiencia de escritura precisa y cómoda. Con retroiluminación RGB personalizable, cada tecla responde de manera instantánea, lo que lo convierte en la herramienta perfecta para jugar o trabajar durante largas horas. Su diseño compacto y robusto asegura durabilidad y una excelente sensación táctil al escribir.",
+            "image": "/img/teclado.jpg",
+            "alt": "Teclado mecánico Logitech con retroiluminación RGB",
+            "category": "Perifericos",
+            "quantity": 1
+          },
+          {
+            "id": 11,
+            "name": "Placa Base ASUS ROG",
+            "url": "placa-base-asus-rog",
+            "price": 180,
+            "description": "Placa base de alto rendimiento para gaming",
+            "image": "/img/asus.jpg",
+            "alt": "Placa base ASUS ROG de alto rendimiento",
+            "category": "Componentes",
+            "quantity": 1
+          }
+        ],
+        "allPrice": 619,
+        "total": 320
+      }
+    ]
+  },
+  {
+    "userId": "d66e37d0-9fdf-4abf-9423-df4d9977baad",
+    "orders": [
+      {
+        "orderId": 1739807955577,
+        "date": "2025-02-17T15:59:15.576Z",
+        "products": [
+          {
+            "id": 3,
+            "name": "Mouse Razer DeathAdder",
+            "url": "mouse-razer-deathadder",
+            "price": 50,
+            "description": "El Razer DeathAdder es un mouse ergonómico y de alto rendimiento diseñado para jugadores exigentes. Con un sensor de 16,000 DPI, ofrece una precisión y velocidad increíbles, lo que te permite realizar movimientos rápidos y exactos durante las sesiones más intensas. Su diseño cómodo y su durabilidad hacen de este mouse la opción ideal para largas sesiones de juego sin comprometer el confort.",
+            "image": "/img/mouse.jpg",
+            "alt": "Mouse Razer DeathAdder ergonómico para gaming",
+            "category": "Perifericos",
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "name": "Teclado Mecánico Logitech",
+            "url": "teclado-mecanico-logitech",
+            "price": 80,
+            "description": "El teclado mecánico Logitech es ideal para gamers y profesionales que buscan una experiencia de escritura precisa y cómoda. Con retroiluminación RGB personalizable, cada tecla responde de manera instantánea, lo que lo convierte en la herramienta perfecta para jugar o trabajar durante largas horas. Su diseño compacto y robusto asegura durabilidad y una excelente sensación táctil al escribir.",
+            "image": "/img/teclado.jpg",
+            "alt": "Teclado mecánico Logitech con retroiluminación RGB",
+            "category": "Perifericos",
+            "quantity": 1
+          },
+          {
+            "id": 8,
+            "name": "Auriculares Gaming SteelSeries",
+            "url": "auriculares-gaming-steelseries",
+            "price": 120,
+            "description": "Los auriculares gaming SteelSeries ofrecen un sonido envolvente 7.1 para una experiencia auditiva inmersiva. Equipados con un micrófono de cancelación de ruido, estos auriculares permiten una comunicación clara y precisa en juegos en línea. Su diseño ergonómico y cómodo permite largas sesiones de juego sin fatiga, lo que los convierte en una opción perfecta para los gamers más exigentes.",
+            "image": "/img/audifonos.jpg",
+            "alt": "Auriculares gaming SteelSeries con sonido envolvente",
+            "category": "Perifericos",
+            "quantity": 1
+          }
+        ],
+        "allPrice": 549,
+        "total": 250
+      },
+      {
+        "orderId": 1739808580680,
+        "date": "2025-02-17T16:09:40.680Z",
+        "products": [
+          {
+            "id": 3,
+            "name": "Mouse Razer DeathAdder",
+            "url": "mouse-razer-deathadder",
+            "price": 50,
+            "description": "El Razer DeathAdder es un mouse ergonómico y de alto rendimiento diseñado para jugadores exigentes. Con un sensor de 16,000 DPI, ofrece una precisión y velocidad increíbles, lo que te permite realizar movimientos rápidos y exactos durante las sesiones más intensas. Su diseño cómodo y su durabilidad hacen de este mouse la opción ideal para largas sesiones de juego sin comprometer el confort.",
+            "image": "/img/mouse.jpg",
+            "alt": "Mouse Razer DeathAdder ergonómico para gaming",
+            "category": "Perifericos",
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "name": "Teclado Mecánico Logitech",
+            "url": "teclado-mecanico-logitech",
+            "price": 80,
+            "description": "El teclado mecánico Logitech es ideal para gamers y profesionales que buscan una experiencia de escritura precisa y cómoda. Con retroiluminación RGB personalizable, cada tecla responde de manera instantánea, lo que lo convierte en la herramienta perfecta para jugar o trabajar durante largas horas. Su diseño compacto y robusto asegura durabilidad y una excelente sensación táctil al escribir.",
+            "image": "/img/teclado.jpg",
+            "alt": "Teclado mecánico Logitech con retroiluminación RGB",
+            "category": "Perifericos",
+            "quantity": 1
+          },
+          {
+            "id": 4,
+            "name": "Monitor Dell 24 Pulgadas",
+            "url": "monitor-dell-24-pulgadas",
+            "price": 150,
+            "description": "El monitor Dell de 24 pulgadas es perfecto para profesionales y entusiastas de la tecnología que buscan una pantalla clara y precisa para trabajar o disfrutar de contenido multimedia. Con una resolución Full HD y tecnología IPS, este monitor ofrece colores vivos y un ángulo de visión amplio, lo que lo convierte en una excelente opción para proyectos gráficos, juegos o ver películas.",
+            "image": "/img/monitor.jpg",
+            "alt": "Monitor Dell de 24 pulgadas con tecnología IPS",
+            "category": "Monitores",
+            "quantity": 1
+          }
+        ],
+        "allPrice": 579,
+        "total": 280
       }
     ]
   }

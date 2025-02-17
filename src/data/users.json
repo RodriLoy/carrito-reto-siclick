@@ -17,5 +17,18 @@
     "city": "Guadalajara",
     "region": "Jalisco",
     "postalCode": "44250"
+  },
+  {
+    "id": "d66e37d0-9fdf-4abf-9423-df4d9977baad",
+    "firstName": "Mario",
+    "lastName": "Gonzalez",
+    "maternalLastName": "Gonzalez",
+    "email": "mario@hotmail.com",
+    "password": "$2b$10$qPldbrrs8vvgMIC2rdIR.e/ZhlCFL6Xjaq/FCIyP6t8T4CngOgoY.",
+    "country": "Mexico",
+    "streetAddress": "Antonio Álvarez Vega",
+    "city": "Guadalajara",
+    "region": "Jalisco",
+    "postalCode": "44250"
   }
 ]
