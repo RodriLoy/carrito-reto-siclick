@@ -90,7 +90,7 @@ const ProductButtons = ({ product }) => {
               strokeLinecap="round"
             />
           </svg>
-          Add to cart
+          Agregar al Carrito
         </button>
       </div>
       <div className="flex items-center gap-3">

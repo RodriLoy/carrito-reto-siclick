@@ -111,6 +111,47 @@
         ],
         "allPrice": 569,
         "total": 270
+      },
+      {
+        "orderId": 1739826490036,
+        "date": "2025-02-17T21:08:10.036Z",
+        "products": [
+          {
+            "id": 1,
+            "name": "Laptop HP Pavilion",
+            "url": "laptop-hp-pavilion",
+            "price": 600,
+            "description": "La Laptop HP Pavilion es un dispositivo versátil y potente ideal para el uso diario, desde el trabajo hasta el entretenimiento. Equipado con un procesador Intel i5 de última generación, 8GB de RAM y una pantalla Full HD de 15.6\", ofrece un rendimiento rápido y una experiencia visual impresionante. Perfecto para tareas multitarea, juegos ligeros y ver tus películas favoritas con una calidad de imagen nítida y brillante.",
+            "image": "/img/laptop.jpg",
+            "alt": "Laptop HP Pavilion con pantalla Full HD",
+            "category": "Laptops",
+            "quantity": 1
+          },
+          {
+            "id": 2,
+            "name": "Teclado Mecánico Logitech",
+            "url": "teclado-mecanico-logitech",
+            "price": 80,
+            "description": "El teclado mecánico Logitech es ideal para gamers y profesionales que buscan una experiencia de escritura precisa y cómoda. Con retroiluminación RGB personalizable, cada tecla responde de manera instantánea, lo que lo convierte en la herramienta perfecta para jugar o trabajar durante largas horas. Su diseño compacto y robusto asegura durabilidad y una excelente sensación táctil al escribir.",
+            "image": "/img/teclado.jpg",
+            "alt": "Teclado mecánico Logitech con retroiluminación RGB",
+            "category": "Perifericos",
+            "quantity": 1
+          },
+          {
+            "id": 3,
+            "name": "Mouse Razer DeathAdder",
+            "url": "mouse-razer-deathadder",
+            "price": 50,
+            "description": "El Razer DeathAdder es un mouse ergonómico y de alto rendimiento diseñado para jugadores exigentes. Con un sensor de 16,000 DPI, ofrece una precisión y velocidad increíbles, lo que te permite realizar movimientos rápidos y exactos durante las sesiones más intensas. Su diseño cómodo y su durabilidad hacen de este mouse la opción ideal para largas sesiones de juego sin comprometer el confort.",
+            "image": "/img/mouse.jpg",
+            "alt": "Mouse Razer DeathAdder ergonómico para gaming",
+            "category": "Perifericos",
+            "quantity": 1
+          }
+        ],
+        "allPrice": 1029,
+        "total": 730
       }
     ]
   },

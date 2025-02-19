@@ -47,14 +47,6 @@ const OrderConfirmationPage = () => {
               {newDate}
             </dd>
           </dl>
-          {/* <dl className="sm:flex items-center justify-between gap-4">
-            <dt className="font-normal mb-1 sm:mb-0 text-gray-500 dark:text-gray-400">
-              Payment Method
-            </dt>
-            <dd className="font-medium text-gray-900 dark:text-white sm:text-end">
-              JPMorgan monthly installments
-            </dd>
-          </dl> */}
           <dl className="sm:flex items-center justify-between gap-4">
             <dt className="font-normal mb-1 sm:mb-0 text-gray-500 dark:text-gray-400">
               Nombre
@@ -72,14 +64,6 @@ const OrderConfirmationPage = () => {
               {user?.country}, {user?.postalCode}
             </dd>
           </dl>
-          {/* <dl className="sm:flex items-center justify-between gap-4">
-            <dt className="font-normal mb-1 sm:mb-0 text-gray-500 dark:text-gray-400">
-              Phone
-            </dt>
-            <dd className="font-medium text-gray-900 dark:text-white sm:text-end">
-              {user.phoneNumber}
-            </dd>
-          </dl> */}
         </div>
         <div className="flex items-center space-x-4">
           <Link
