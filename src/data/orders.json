@@ -152,6 +152,25 @@
         ],
         "allPrice": 1029,
         "total": 730
+      },
+      {
+        "orderId": 1740068715405,
+        "date": "2025-02-20T16:25:15.405Z",
+        "products": [
+          {
+            "id": 2,
+            "name": "Teclado Mecánico Logitech",
+            "url": "teclado-mecanico-logitech",
+            "price": 80,
+            "description": "El teclado mecánico Logitech es ideal para gamers y profesionales que buscan una experiencia de escritura precisa y cómoda. Con retroiluminación RGB personalizable, cada tecla responde de manera instantánea, lo que lo convierte en la herramienta perfecta para jugar o trabajar durante largas horas. Su diseño compacto y robusto asegura durabilidad y una excelente sensación táctil al escribir.",
+            "image": "/img/teclado.jpg",
+            "alt": "Teclado mecánico Logitech con retroiluminación RGB",
+            "category": "Perifericos",
+            "quantity": 3
+          }
+        ],
+        "allPrice": 539,
+        "total": 240
       }
     ]
   },
@@ -239,6 +258,52 @@
         ],
         "allPrice": 579,
         "total": 280
+      }
+    ]
+  },
+  {
+    "userId": "05d545de-8fc2-4656-8c8e-76f606648105",
+    "orders": [
+      {
+        "orderId": 1740065526708,
+        "date": "2025-02-20T15:32:06.708Z",
+        "products": [
+          {
+            "id": 2,
+            "name": "Teclado Mecánico Logitech",
+            "url": "teclado-mecanico-logitech",
+            "price": 80,
+            "description": "El teclado mecánico Logitech es ideal para gamers y profesionales que buscan una experiencia de escritura precisa y cómoda. Con retroiluminación RGB personalizable, cada tecla responde de manera instantánea, lo que lo convierte en la herramienta perfecta para jugar o trabajar durante largas horas. Su diseño compacto y robusto asegura durabilidad y una excelente sensación táctil al escribir.",
+            "image": "/img/teclado.jpg",
+            "alt": "Teclado mecánico Logitech con retroiluminación RGB",
+            "category": "Perifericos",
+            "quantity": 4
+          },
+          {
+            "id": 15,
+            "name": "Teclado Logitech K780",
+            "url": "lector-de-sonido-k780",
+            "price": 40,
+            "description": "Teclado inalámbrico con soporte para múltiples dispositivos",
+            "image": "/img/teclado-logi.jpg",
+            "alt": "Teclado inalámbrico Logitech K780 con soporte múltiple",
+            "category": "Perifericos",
+            "quantity": 3
+          },
+          {
+            "id": 18,
+            "name": "Estación de Acoplamiento Dell",
+            "url": "estacion-de-acomplamiento-dell",
+            "price": 120,
+            "description": "Estación de acoplamiento para laptops con puertos múltiples",
+            "image": "/img/estacion-acoplamiento.jpg",
+            "alt": "Estación de acoplamiento Dell para laptops",
+            "category": "Accesorios",
+            "quantity": 2
+          }
+        ],
+        "allPrice": 979,
+        "total": 680
       }
     ]
   }

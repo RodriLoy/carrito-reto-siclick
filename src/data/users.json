@@ -30,5 +30,18 @@
     "city": "Guadalajara",
     "region": "Jalisco",
     "postalCode": "44250"
+  },
+  {
+    "id": "05d545de-8fc2-4656-8c8e-76f606648105",
+    "firstName": "test",
+    "lastName": "test",
+    "maternalLastName": "test",
+    "email": "fskfskd@hotmail.com",
+    "password": "$2b$10$HCE4r/jcvdkxJBzOEXFTN.Ql0oQQvOA8zyuJvtJ/RE3OBTRgGp.ve",
+    "country": "Mexico",
+    "streetAddress": "avenida siempre viva",
+    "city": "Guadalajara",
+    "region": "Jalisco",
+    "postalCode": "44250"
   }
 ]
